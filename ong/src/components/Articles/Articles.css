@@ -1,0 +1,35 @@
+.articles{
+    margin: 80px auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.articles img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+
+.article{
+    flex-basis: 31%;
+    position: relative;
+}
+
+.caption{
+    border-radius: 10px;
+    position: absolute;
+    /* top: 0; */
+    left: 0;
+    bottom: 0;
+    right: 0;
+    /* background: rgba(0, 15, 152, 0.3); */
+}
+
+.caption h3{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
