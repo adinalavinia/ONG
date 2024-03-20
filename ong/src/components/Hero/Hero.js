@@ -13,7 +13,7 @@ const Hero = () => {
         <div className='hero-text-container'>
           <div className='hero-text'>
             <h1>Vision for the future</h1>
-            <button className='btn'>Show more</button>
+            {/* <button className='btn'>Show more</button> */}
           </div>
         </div>
       </div>

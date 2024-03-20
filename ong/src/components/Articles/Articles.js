@@ -3,6 +3,7 @@ import './Articles.css'
 import img_article1 from '../../assets/images/img7.jpg'
 import img_article2 from '../../assets/images/img3.jpg'
 import img_article3 from '../../assets/images/img7.jpg'
+import search from '../../assets/images/search.png'
 
 const Articles = () => {
   return (
@@ -10,18 +11,21 @@ const Articles = () => {
         <div className='article'>
             <img src={img_article1} alt=''/>
             <div className='caption'>
+                <img src={search} alt=''/>
                 <h3>Lorem ipsum</h3>
             </div>
         </div>
         <div className='article'>
             <img src={img_article2} alt=''/>
             <div className='caption'>
+                <img src={search} alt=''/>
                 <h3>Lorem ipsum</h3>
             </div>
         </div>
         <div className='article'>
             <img src={img_article3} alt=''/>
             <div className='caption'>
+                <img src={search} alt=''/>
                 <h3>Lorem ipsum</h3>
             </div>
         </div>
